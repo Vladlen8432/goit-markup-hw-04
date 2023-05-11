@@ -315,6 +315,23 @@ img {
   text-align: center;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  margin-top: 8px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
 /*FOOTER*/
 .page-footer {
   background-color: var(--color-link-background);
