@@ -209,6 +209,13 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.background-icon-sec-two {
+  display: flex;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+}
+
 .list-sec-two {
   font-weight: 500;
   font-size: 20px;
