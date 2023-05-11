@@ -133,6 +133,13 @@ img {
 .section-one {
   padding: 188px 0;
   background-color: var(--color-link-background);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/background/people-office.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cont-sec-one {
@@ -186,7 +193,7 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
