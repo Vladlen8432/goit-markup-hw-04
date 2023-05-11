@@ -212,6 +212,7 @@ img {
 .background-icon-sec-two {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 112px;
   background-color: #f4f4fd;
 }
