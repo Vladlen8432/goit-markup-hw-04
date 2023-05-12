@@ -332,6 +332,35 @@ img {
   background-color: #4d5ae5;
 }
 
+/*Section-five*/
+.section-five {
+  padding: 120px 156px;
+}
+
+.customers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.list-customers {
+  display: flex;
+  column-gap: 24px;
+  margin-top: 72px;
+}
+
+.container-customers {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
 /*FOOTER*/
 .page-footer {
   background-color: var(--color-link-background);
