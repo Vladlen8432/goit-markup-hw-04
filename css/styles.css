@@ -391,7 +391,9 @@ img {
 }
 
 .container-footer {
-  display: block;
+  display: flex;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .logo-web-footer {
@@ -416,6 +418,27 @@ img {
   letter-spacing: 0.02em;
   color: var(--background-color-button);
   max-width: 264px;
+}
+
+.footer-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02;
+  color: var(--color-background);
+}
+
+.footer-social-media-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.footer-social-media-link {
+  background-color: var(--button-logo-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 /*PORTFOLIO*/
