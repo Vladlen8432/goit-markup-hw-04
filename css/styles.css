@@ -270,12 +270,9 @@ img {
   padding: 120px 0;
 }
 
-.container-team-list {
-  padding: 32px 0;
-}
-
 .container-team {
   display: block;
+  padding: 32px 0;
 }
 
 .our-team {
@@ -292,7 +289,6 @@ img {
 .image-flex-team {
   display: flex;
   gap: 24px;
-  padding: 32px 0;
 }
 
 .list-item-team {
