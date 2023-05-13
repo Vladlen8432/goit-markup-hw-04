@@ -388,12 +388,12 @@ img {
 .page-footer {
   background-color: var(--color-link-background);
   padding: 100px 0;
+  gap: 120px;
 }
 
 .container-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .logo-web-footer {
