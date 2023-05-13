@@ -394,7 +394,7 @@ img {
 .container-footer {
   display: flex;
   align-items: baseline;
-  column-gap: 120px;
+  gap: 120px;
 }
 
 .logo-web-footer {
@@ -424,8 +424,8 @@ img {
 .footer-social-media {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
   color: var(--color-background);
   margin-bottom: 16px;
 }
@@ -453,6 +453,10 @@ img {
 .footer-social-media-link:hover,
 .footer-social-media-link:focus {
   background-color: var(--footer-hover);
+}
+
+.footer-social-media-icon {
+  fill: var(--background-color-button);
 }
 
 /*PORTFOLIO*/
