@@ -424,7 +424,7 @@ img {
 .footer-social-media {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-background);
   margin-bottom: 16px;
