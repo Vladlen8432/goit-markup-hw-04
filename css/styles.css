@@ -6,6 +6,7 @@
   --button-logo-color: #4d5ae5;
   --background-color-button: #f4f4fd;
   --customers-icon: #8e8f99;
+  --footer-hover: #31d0aa;
 }
 
 body {
@@ -393,7 +394,7 @@ img {
 .container-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  column-gap: 120px;
 }
 
 .logo-web-footer {
@@ -426,19 +427,32 @@ img {
   line-height: 24px;
   letter-spacing: 0.02;
   color: var(--color-background);
+  margin-bottom: 16px;
 }
 
 .footer-social-media-list {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
+}
+
+.footer-social-media-item {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--button-logo-color);
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-social-media-link:hover,
+.footer-social-media-link:focus {
+  background-color: var(--footer-hover);
 }
 
 /*PORTFOLIO*/
