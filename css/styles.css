@@ -380,6 +380,10 @@ img {
   border-color: #404bbf;
 }
 
+.list-customers-icon {
+  fill: currentColor;
+}
+
 /*FOOTER*/
 .page-footer {
   background-color: var(--color-link-background);
