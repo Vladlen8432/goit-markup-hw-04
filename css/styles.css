@@ -178,6 +178,7 @@ img {
   margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .section-one-button:hover,
@@ -380,11 +381,12 @@ img {
 
 .link-customers:hover,
 .link-customers:focus {
-  color: #404bbf;
-  border-color: #404bbf;
+  color: var(--color-hover);
+  border-color: var(--color-hover);
+  fill: var(--color-hover);
 }
 
-.list-customers-icon {
+.link-customers-icon {
   fill: currentColor;
 }
 
